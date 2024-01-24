@@ -11,7 +11,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: black;
-    /* padding-top: -30; */
 }
 
 .botones{
@@ -22,7 +21,7 @@ body{
 }
 
 .botones a{
-    background-color: #0a2be9;
+    background-color: #e90ad6;
     padding: 9px;
     border-radius: 80px;
     -webkit-border-radius: 80px;
