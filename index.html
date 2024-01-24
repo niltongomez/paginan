@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="/css/estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form | Dan Aleko</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        <img src="img/foto1.jpg" alt="" class="foto">
-        <h2>INICIAR SESION</h2>
-        <form class="form" action="">
-            <label for="username">USUARIO</label>
-            <input class="text"  type="text" id="username" placeholder="ingrese su usuario" required>
-            <label for="password"> CONTRASEÑA</label>
-            <input  class="password" placeholder="ingrese su contraseña" required>
-                <button class="botones">
-                    <a href="main.html" style="color: #fff;">INGRESAR</a>
-                </button>
-        </form>
-    </div> 
+  <div class="wrapper">
+    <form action="">
+        <img class="photo"   src="img/foto1.jpg" alt="">
+      <div class="input-box">
+        <input type="text" placeholder="ingresa tu nombre" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="ingresa tu contraseña" required>
+        <i class='bx bxs-lock-alt' ></i>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">estas seguro</label>
+        <a href="#">olvidaste tu contraseña</a>
+      </div>
+      <button type="submit" class="btn">
+        <a class="a1"     href="/main.html">INGRESAR</a>
+      </button>
+     
+      
+      <div class="register-link">
+        <p>No estas registrado? <a href="#">Registrate</a></p>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
