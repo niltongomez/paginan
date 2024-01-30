@@ -11,7 +11,7 @@ console.log(password)
 if (usuario==user & clave==password) {
     location.href="main.html"
 } else {
-    alert("no sabes  o como es")
+    alert("el usuario y contraseña es incorrecto vuelva a pronto")
     
 }
 
