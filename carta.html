@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carta</title>
+    <link rel="stylesheet" href="./css/carta.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Una cartita esposa Catherin</strong>
+                        <p>
+                            Es hermoso poder saber que estás a mi lado pero más hermoso
+                             sentir que me amas como yo te amo, quiero que seas mi esposa,
+                             cada latido me acerca más y más a tu corazón., te amo mi vida catherin😍❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+            <div>
+                <button >
+                    <a href="index.html"  class="in"    >INGRESAR</a>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
